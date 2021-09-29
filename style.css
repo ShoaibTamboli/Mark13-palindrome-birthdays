@@ -1,25 +1,30 @@
+:root {
+  --Gray: rgb(224, 206, 223);
+  --fontblack: rgb(20, 18, 18);
+
+}
+
 body {
-    margin: 0;
-    padding: 1rem;
-    box-sizing: border-box;
-    height: 100vh;
-    background-color: rgb(29, 35, 51);
-    color: rgb(158, 34, 34);
-  }
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
   
-  
-  p {
-    text-align: left;
-    font-size: large;
-    padding: 1rem;
-   
-   
-  }
+  background-color: var(--Gray);
+  color: var(--fontblack);
+}
 
-  main {
-    text-align: center;
-    border: 1px solid white;
 
-    height: 100%;
-  }
-  
+p {
+  text-align: center;
+  font-size: large;
+  padding: 1rem;
+  font-family: cursive;
+}
+
+main {
+
+
+  text-align: center;
+  border: 1px solid rgb(43, 2, 41);
+
+}
